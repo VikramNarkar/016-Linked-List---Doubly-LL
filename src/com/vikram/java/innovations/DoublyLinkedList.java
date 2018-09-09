@@ -9,6 +9,13 @@ package com.vikram.java.innovations;
  * That program is also saved as 'DLLBySriram' (for your reference)
  * 
  * This program may not be complete. Complete it.
+ * 
+ * In every LinkedList related method, consider following conditions:
+ * 1. Empty Linked List
+ * 2. Node to be added/removed in the middle of the linked list
+ * 3. Only 1 node in the linked list
+ * 4. Index of the node to be added/removed less than 0 or greater than size of linked list
+ * 
  */
 
 public class DoublyLinkedList {
