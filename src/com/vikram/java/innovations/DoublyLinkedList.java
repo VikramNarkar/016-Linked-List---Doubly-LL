@@ -89,6 +89,7 @@ public class DoublyLinkedList {
 					node.setPrevious(curr);
 					
 					curr.setNext(node);
+					node.getNext().setPrevious(node); // Connecting the next node to the newly inserted node
 				} 
 			}
 			
